@@ -1,4 +1,5 @@
 <template>
-  <HeaderComponent />
-  <NuxtPage />
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
 </template>
