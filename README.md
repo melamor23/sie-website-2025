@@ -7,7 +7,7 @@ Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduct
 Make sure to install dependencies:
 
 ```bash
-# npm test 1111111111222222222
+# npm
 npm install
 
 # pnpm

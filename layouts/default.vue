@@ -12,9 +12,9 @@
   } from '@heroicons/vue/20/solid'
   
   const navigation = [
+    { name: 'SIE', href: '/index' },
     { name: 'About', href: '/about' },
-    { name: 'Features', href: '#' },
-    { name: 'Marketplace', href: '#' },
+    { name: 'Sustainability', href: '/sustainability' },
     { name: 'Contact', href: '/contact' },
   ]
 
@@ -118,24 +118,25 @@
     <div :class="[$route.name !== 'index' ? 'bg-black' : 'bg-white']">
       <!-- Header -->
       <header :class="[$route.name === 'index' ? 'absolute' : '', 'inset-x-0 top-0 z-50']">
-        <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+        <nav class="flex items-center justify-between p-6 lg:px-10 text-black" aria-label="Global">
           <div class="flex lg:flex-1">
             <NuxtLink :to="'/'" class="-m-1.5 p-1.5">
-              <span class="sr-only">Your Company</span>
-              <img class="h-8 w-auto" src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=500" alt="" />
+              <span class="sr-only">SIE</span>
+              <img class="h-11 w-auto" src="../assets/img/logo.png" alt="logo" />
             </NuxtLink>
           </div>
           <div class="flex lg:hidden">
-            <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-400" @click="mobileMenuOpen = true">
+            <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white" @click="mobileMenuOpen = true">
               <span class="sr-only">Open main menu</span>
               <Bars3Icon class="size-6" aria-hidden="true" />
             </button>
           </div>
-          <div class="hidden lg:flex lg:gap-x-12">
-            <NuxtLink v-for="item in navigation" :key="item.name" :to="item.href" class="text-sm/6 font-semibold text-white">{{ item.name }}</NuxtLink>
+          <div class="hidden lg:flex lg:gap-x-20">
+            <NuxtLink v-for="item in navigation" :key="item.name" :to="item.href" :style="{ color: 'rgb(25,24,96)' }" class="text-sm/6 font-semibold">
+              {{ item.name }}
+            </NuxtLink>
           </div>
-          <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="#" class="text-sm/6 font-semibold text-white">Log in <span aria-hidden="true">&rarr;</span></a>
+          <div class="hidden lg:flex lg:flex-1">
           </div>
         </nav>
         <Dialog class="lg:hidden" @close="mobileMenuOpen = false" :open="mobileMenuOpen">
