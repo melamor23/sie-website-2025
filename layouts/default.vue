@@ -115,10 +115,10 @@
   </script>
 
 <template>
-    <div :class="[$route.name !== 'index' ? 'bg-black' : 'bg-white']">
+    <div :class="[$route.name !== 'index' ? 'bg-gray-900' : 'bg-gray-900']">
       <!-- Header -->
       <header :class="[$route.name === 'index' ? 'absolute' : '', 'inset-x-0 top-0 z-50']">
-        <nav class="flex items-center justify-between p-6 lg:px-10 text-black" aria-label="Global">
+        <nav class="flex items-center justify-between p-6 lg:px-10 text-white" aria-label="Global">
           <div class="flex lg:flex-1">
             <NuxtLink :to="'/'" class="-m-1.5 p-1.5">
               <span class="sr-only">SIE</span>
@@ -172,7 +172,7 @@
       <footer class="mt-32 bg-gray-900 sm:mt-56">
         <div class="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8 lg:py-32">
           <div class="xl:grid xl:grid-cols-3 xl:gap-8">
-            <img class="h-9" src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=500" alt="Company name" />
+            <img class="h-9" src="../assets/img/logo.png" alt="Company logo" />
             <div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
               <div class="md:grid md:grid-cols-2 md:gap-8">
                 <div>
