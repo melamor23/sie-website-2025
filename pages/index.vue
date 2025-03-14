@@ -92,11 +92,11 @@
                 <use href="#b56e9dab-6ccb-4d32-ad02-6b4bb5d9bbeb" x="86" />
             </svg>
             <blockquote class="text-xl/8 font-semibold text-white sm:text-2xl/9">
-                <p> Sie Energy is ready to unlock the potential of underdeveloped, stranded or by passed opportunities, through the application of leading edge knowledge, discipline integration, differentiating technologies, and a systems-wide view of energy value chains, while preserving strategic ecosystems and strengthening local communities.</p>
+                <p> Size Energy is ready to unlock the potential of underdeveloped, stranded or by passed opportunities, through the application of leading edge knowledge, discipline integration, differentiating technologies, and a systems-wide view of energy value chains, while preserving strategic ecosystems and strengthening local communities.</p>
             </blockquote>
             <figcaption class="mt-8 text-base">
-                <div class="font-semibold text-white">Andres E. Mantilla, PhD</div>
-                <div class="mt-1 text-gray-400">Business Development Manager, Sie Energy</div>
+                <div class="font-semibold text-white">Andres, PhD</div>
+                <div class="mt-1 text-gray-400">Business Development Manager, Size Energy</div>
             </figcaption>
             </figure>
         </div>

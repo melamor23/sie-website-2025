@@ -12,7 +12,7 @@
   } from '@heroicons/vue/20/solid'
   
   const navigation = [
-    { name: 'SIE', href: '/index' },
+    { name: 'SIZE', href: '/index' },
     { name: 'About', href: '/about' },
     { name: 'Sustainability', href: '/sustainability' },
     { name: 'Contact', href: '/contact' },
@@ -86,13 +86,6 @@
     // More questions...
   ]
   const footerNavigation = {
-    solutions: [
-      { name: 'Marketing', href: '#' },
-      { name: 'Analytics', href: '#' },
-      { name: 'Automation', href: '#' },
-      { name: 'Commerce', href: '#' },
-      { name: 'Insights', href: '#' },
-    ],
     support: [
       { name: 'Submit ticket', href: '#' },
       { name: 'Documentation', href: '#' },
@@ -176,7 +169,7 @@
             <div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
               <div class="md:grid md:grid-cols-2 md:gap-8">
                 <div>
-                  <h3 class="text-sm/6 font-semibold text-white">Solutions</h3>
+                  <h3 class="text-sm/6 font-semibold text-white"> </h3>
                   <ul role="list" class="mt-6 space-y-4">
                     <li v-for="item in footerNavigation.solutions" :key="item.name">
                       <a :href="item.href" class="text-sm/6 text-gray-400 hover:text-white">{{ item.name }}</a>

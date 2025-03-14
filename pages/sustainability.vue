@@ -7,7 +7,7 @@
         <div class="mx-auto max-w-2xl lg:mx-0">
           <p class="text-base/7 font-semibold text-indigo-600">Energy</p>
           <h1 class="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Sustainability</h1>
-          <p class="mt-6 text-xl/8 text-gray-700">Sie Energy seamlessly merges experience and creativity to foster the competitive generation of energy and energy carriers from green field and mature plays, through schemes that have a strong foundation on innovation and sustainability.</p>
+          <p class="mt-6 text-xl/8 text-gray-700">Size Energy seamlessly merges experience and creativity to foster the competitive generation of energy and energy carriers from green field and mature plays, through schemes that have a strong foundation on innovation and sustainability.</p>
         </div>
         <div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:mt-10 lg:max-w-none lg:grid-cols-12">
           <div class="relative lg:order-last lg:col-span-5">
@@ -35,7 +35,7 @@
               </li>
               <li class="flex gap-x-3">
                 <PaperAirplaneIcon class="mt-1 size-5 flex-none text-indigo-600" aria-hidden="true" />
-                <span><strong class="font-semibold text-gray-900">Regional Focus.</strong> From our offices in Houston and Colombia, we pursue business opportunities in the Americas, with special focus in USA, Colombia, Peru and Ecuador, where we see plenty of room for us to complement the current energy resources production and commercialization capabilities.</span>
+                <span><strong class="font-semibold text-gray-900">Regional Focus.</strong> From our offices, we pursue business opportunities in the Americas, with special focus in USA, Colombia, Peru and Ecuador, where we see plenty of room for us to complement the current energy resources production and commercialization capabilities.</span>
               </li>
             </ul>
             <h2 class="mt-10 text-4xl font-bold tracking-tight text-gray-900">Our strategy in Peru</h2>
