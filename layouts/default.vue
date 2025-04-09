@@ -12,7 +12,7 @@
   } from '@heroicons/vue/20/solid'
   
   const navigation = [
-    { name: 'SIZE', href: '/index' },
+    { name: 'SIZE', href: '/' },
     { name: 'About', href: '/about' },
     { name: 'Sustainability', href: '/sustainability' },
     { name: 'Contact', href: '/contact' },
@@ -125,7 +125,7 @@
             </button>
           </div>
           <div class="hidden lg:flex lg:gap-x-20">
-            <NuxtLink v-for="item in navigation" :key="item.name" :to="item.href" :style="{ color: 'rgb(25,24,96)' }" class="text-sm/6 font-semibold">
+            <NuxtLink v-for="item in navigation" :key="item.name" :to="item.href" :style="{ color: $route.name === 'index' ? 'rgb(25,24,96)' : 'white' }" class="text-sm/6 font-semibold">
               {{ item.name }}
             </NuxtLink>
           </div>
